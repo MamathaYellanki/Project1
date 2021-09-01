@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Automation Suite" thread-count="5" parallel="tests" >
+<parameter name="Url" value=""></parameter>
+ <listeners>
+  <listener class-name="com.qa.utility.Report" />
+  </listeners>
+  
+  
+  <test thread-count="5" name="Testing Page" >
+  <parameter name="Browser" value="chrome"></parameter>
+   <classes>
+      <class name="com.qa.testscripts.Amazon_test"/>
+      </classes>
+      </test><!--  Test -->
+      
+      <test thread-count="5" name="Destination Testing Page" >
+       <parameter name="Browser" value="chrome"></parameter>
+       <classes>
+       <class name="com.qa.testscripts.DestionationTest"/>
+       </classes>
+      </test><!--  Test -->
+      
+      
+      <test thread-count="5" name="rediff Testing Page" >
+       <parameter name="Browser" value="chrome"></parameter>
+       <classes>
+       <class name="com.qa.testscripts.rediff_test"/>
+         </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Ebay Testing Page" >
+       <parameter name="Browser" value="chrome"></parameter>
+       <classes>
+      <class name="com.qa.testscripts.EbayTest"/>
+        </classes>
+  </test> <!-- Test -->
+      
+      <test thread-count="5" name="Ebay attribute Testing Page" >
+       <parameter name="Browser" value="chrome"></parameter>
+       <classes>
+      <class name="com.qa.testscripts.Ebay_Attribute"/>
+        </classes>
+  </test> <!-- Test -->
+      
+       <test thread-count="5" name=" Fedex Testing Page" >
+       <parameter name="Browser" value="chrome"></parameter>
+       <classes>
+      <class name="com.qa.testscripts.fedex_test"/>
+        </classes>
+  </test> <!-- Test -->
+      
+        <test thread-count="5" name="Gmail Testing Page" >
+       <parameter name="Browser" value="chrome"></parameter>
+       <classes>
+       <class name="com.qa.testscripts.gmail_test"/>
+         </classes>
+  </test> <!-- Test -->
+         
+       <test thread-count="5" name="googlesearch Testing Page" >
+       <parameter name="Browser" value="chrome"></parameter>
+       <classes>
+       <class name="com.qa.testscripts.googleSearchTest10"/>
+         </classes>
+  </test> <!-- Test -->
+          
+       <test thread-count="5" name="newtours flight Testing Page" >
+       <parameter name="Browser" value="chrome"></parameter>
+       <classes>
+       <class name="com.qa.testscripts.newtoursTest7"/>
+         </classes>
+  </test> <!-- Test -->
+           
+        <test thread-count="5" name="gooogle Testing Page" >
+       <parameter name="Browser" value="chrome"></parameter>
+       <classes>
+        <class name="com.qa.testscripts.googleTest5"/>
+          </classes>
+  </test> <!-- Test -->
+              
+        <test thread-count="5" name="newtours Location Testing Page" >
+       <parameter name="Browser" value="chrome"></parameter>
+       <classes>
+        <class name="com.qa.testscripts.newtoursTest8"/>
+          </classes>
+  </test> <!-- Test -->
+             
+         <test thread-count="5" name="newtours textbox Testing Page" >
+       <parameter name="Browser" value="chrome"></parameter>
+       <classes>
+         <class name="com.qa.testscripts.newtoursTest9"/>
+           </classes>
+  </test> <!-- Test -->
+              
+          <test thread-count="5" name="popup1 Testing Page" >
+       <parameter name="Browser" value="chrome"></parameter>
+       <classes>
+          <class name="com.qa.testscripts.popupTest1"/>
+            </classes>
+  </test> <!-- Test -->
+               
+          <test thread-count="5" name="popup2 Testing Page" >
+       <parameter name="Browser" value="chrome"></parameter>
+       <classes>
+          <class name="com.qa.testscripts.popupTest2"/>
+            </classes>
+  </test> <!-- Test -->
+                 
+          <test thread-count="5" name="popup3 Testing Page" >
+       <parameter name="Browser" value="chrome"></parameter>
+       <classes>
+           <class name="com.qa.testscripts.popupTest3"/>
+             </classes>
+  </test> <!-- Test -->
+                  
+            <test thread-count="5" name="newtours country Testing Page" >
+       <parameter name="Browser" value="chrome"></parameter>
+       <classes>
+            <class name="com.qa.testscripts.newtoursTest18"/>
+                    
+                    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
