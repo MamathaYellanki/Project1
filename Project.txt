@@ -1,0 +1,10 @@
+ Volume in drive C has no label.
+ Volume Serial Number is B276-A87F
+
+ Directory of C:\Users\Admin\OneDrive\Desktop\New folder
+
+01-09-2021  12:01    <DIR>          .
+01-09-2021  12:01    <DIR>          ..
+01-09-2021  12:01                 0 Project.txt
+               1 File(s)              0 bytes
+               2 Dir(s)  156,654,911,488 bytes free
